@@ -1,0 +1,37 @@
+index:
+
+	snippets for web mode:
+
+Spec:
+
+	nLt:
+
+n := hirearchical/positional level (opening statement, inner statement, etc: [0-9])
+L := Language (see the langauges supported by web-mode)
+t := type:
+  f := function
+  m := method
+  v := variable
+  a := array
+  h := hash/table/dictionary
+  o := object
+  c := single line comment
+  d := docstring
+  r := he(r)e-doc string
+  l := multi-(l)ine comment
+  wl := left arrow
+  wr := right arrow
+  obr := opening curly brace (right)
+  obl := closing curly brace (left)
+  okr := opening bracket (right)
+  okl := closing bracket (left)
+  [a] := alpha regex (vanilla)
+  [n] := numeric regex (vanilla)
+  [x] := regex expresstion (where x:= the first char of the stored regexp, except a/n- choose second char)
+  
+
+example:
+- opening php tag:
+0pwl:
+
+toplevel (0) (p)hp arro(w) (l)eft  
