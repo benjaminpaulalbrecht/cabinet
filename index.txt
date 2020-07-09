@@ -7,6 +7,7 @@ Spec:
 	nLt:
 
 n := hirearchical/positional level (opening statement, inner statement, etc: [0-9])
+  - note: 00 indicates the bottom-most level 
 L := Language (see the langauges supported by web-mode)
 t := type:
   f := function
@@ -35,3 +36,11 @@ example:
 0pwl:
 
 toplevel (0) (p)hp arro(w) (l)eft  
+
+
+- To Add multiple action snippets:
+  - add a dot.
+    - example: 0pwl.00pwr
+      - "top most level, add opening php tag AND bottom-most level, add closing php tag"
+      
+    
